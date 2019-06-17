@@ -34,6 +34,9 @@ public class Controller extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
        PrintWriter out = response.getWriter();
        HttpSession session= request.getSession();
        String un = request.getParameter("username");
