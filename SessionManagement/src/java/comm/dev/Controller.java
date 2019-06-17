@@ -37,6 +37,14 @@ public class Controller extends HttpServlet {
         System.out.println("GitHub");
         System.out.println("GitHub");
         System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
+        System.out.println("GitHub");
        PrintWriter out = response.getWriter();
        HttpSession session= request.getSession();
        String un = request.getParameter("username");
